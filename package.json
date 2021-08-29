@@ -1,0 +1,17 @@
+{
+  "name": "sson",
+  "version": "0.0.1",
+  "description": "Sim's Script Object Notation. :^)",
+  "main": "index.js",
+  "repository": "https://github.com/zysim/SSON",
+  "author": "Sim",
+  "license": "AGPL-3.0-or-newer",
+  "private": false,
+  "scripts": {
+    "start": "tsc && node build/index.js input.sson"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.6",
+    "typescript": "^4.4.2"
+  }
+}
